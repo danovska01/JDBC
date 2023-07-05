@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="Preparing and Executing Statements">
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.GetVillainsNames">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo1" />
       <module name="Spring_Data" />
@@ -73,8 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetVillainsNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps.GetVillainsNames" />
+      <module name="Spring_Data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introductionToDBApps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetVillainsNames" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo2" />
       </list>
@@ -88,23 +100,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688571314249</updated>
-      <workItem from="1688571316292" duration="6247000" />
+      <workItem from="1688571316292" duration="8758000" />
     </task>
+    <task id="LOCAL-00001" summary="Preparing and Executing Statements">
+      <option name="closed" value="true" />
+      <created>1688583674384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688583674384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Preparing and Executing Statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing and Executing Statements" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Demo.java</url>
+          <url>file://$PROJECT_DIR$/src/Demo1.java</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Demo.java</url>
+          <url>file://$PROJECT_DIR$/src/Demo1.java</url>
           <line>27</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

@@ -22,6 +22,7 @@ public class Demo1 {
                         "JOIN users AS u ON u.id = ug.user_id\n" +
                         "WHERE u.user_name = ?" +
                         "GROUP BY u.first_name, u.last_name;");
+
         System.out.println("Enter user: ");
         String userName = sc.nextLine();
 
