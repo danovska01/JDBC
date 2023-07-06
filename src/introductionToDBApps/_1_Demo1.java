@@ -1,8 +1,10 @@
+package introductionToDBApps;
+
 import java.sql.*;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class Demo1 {
+public class _1_Demo1 {
     public static void main(String[] args) throws SQLException {
 
         Scanner sc = new Scanner(System.in);
@@ -39,7 +41,6 @@ public class Demo1 {
             System.out.println("No such user exists");
         }
         connection.close();
-
 
 
     }

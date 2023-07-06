@@ -1,8 +1,10 @@
+package introductionToDBApps;
+
 import java.sql.*;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class Demo2 {
+public class _1_Demo2 {
     public static void main(String[] args) throws SQLException {
 
         Scanner sc = new Scanner(System.in);
@@ -27,7 +29,6 @@ public class Demo2 {
             System.out.println(rs.getString("first_name") + " " + rs.getString("last_name"));
         }
         connection.close();
-
 
 
     }

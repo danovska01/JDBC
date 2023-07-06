@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Properties;
 
 
-public class GetVillainsNames {
+public class _2_GetVillainsNames {
     public static void main(String[] args) throws SQLException {
 
         Properties props = new Properties();

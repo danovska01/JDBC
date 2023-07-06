@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="villain's names">
+    <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_1_Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_1_Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_2_GetVillainsNames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,45 +44,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kristina/IdeaProjects/Snippets And Tasks Java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/kristina/IdeaProjects/Spring_Data/src/introductionToDBApps",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.GetVillainsNames">
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo1" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/introductionToDBApps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application._3_GetMinionNames_2">
+    <configuration name="_1_Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._1_Demo1" />
       <module name="Spring_Data" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo2" />
+    <configuration name="_1_Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._1_Demo2" />
       <module name="Spring_Data" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetVillainsNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introductionToDBApps.GetVillainsNames" />
+    <configuration name="_2_GetVillainsNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._2_GetVillainsNames" />
+      <module name="Spring_Data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introductionToDBApps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_GetMinionNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._3_GetMinionNames" />
+      <module name="Spring_Data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introductionToDBApps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_GetMinionNames_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._3_GetMinionNames_2" />
       <module name="Spring_Data" />
       <extension name="coverage">
         <pattern>
@@ -90,9 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetVillainsNames" />
-        <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application._3_GetMinionNames_2" />
+        <item itemvalue="Application._3_GetMinionNames" />
+        <item itemvalue="Application._2_GetVillainsNames" />
+        <item itemvalue="Application._1_Demo1" />
+        <item itemvalue="Application._1_Demo2" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +145,7 @@
       <updated>1688571314249</updated>
       <workItem from="1688571316292" duration="9335000" />
       <workItem from="1688647153950" duration="110000" />
-      <workItem from="1688647280749" duration="345000" />
+      <workItem from="1688647280749" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing and Executing Statements">
       <option name="closed" value="true" />
@@ -124,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688587654437</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="villain's names">
+      <option name="closed" value="true" />
+      <created>1688647904848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688647904848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,14 +188,76 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Demo1.java</url>
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_1_Demo1.java</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Demo1.java</url>
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_1_Demo1.java</url>
           <line>27</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>9</line>
+          <properties field="GET_MINIONS_NAMES" class="introductionToDBApps._3_GetMinionNames_2" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
+          <line>12</line>
+          <properties field="GET_VILLAIN_NAME" class="introductionToDBApps._3_GetMinionNames_2" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
