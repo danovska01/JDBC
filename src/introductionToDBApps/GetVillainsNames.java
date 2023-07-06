@@ -15,7 +15,7 @@ public class GetVillainsNames {
                 .getConnection("jdbc:mysql://localhost:3306/minions_db", props);
 
         PreparedStatement stmt =
-                connection.prepareStatement("SELECT v.name, COUNT(*) AS minion_count\n" +
+                connection.prepareStatement("SELECT v.name, COUNT(distinct mv.minion_id) AS minion_count\n" +
                         "FROM villains AS v\n" +
                         "JOIN minions_villains AS mv ON v.id = mv.villain_id\n" +
                         "JOIN minions AS m ON m.id = mv.minion_id\n" +

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="Preparing and Executing Statements">
-      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" afterDir="false" />
+    <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="villain's names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/GetVillainsNames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kristina/IdeaProjects/Spring_Data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kristina/IdeaProjects/Snippets And Tasks Java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,8 +51,13 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RunManager" selected="Application.GetVillainsNames">
@@ -100,7 +104,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688571314249</updated>
-      <workItem from="1688571316292" duration="8758000" />
+      <workItem from="1688571316292" duration="9335000" />
+      <workItem from="1688647153950" duration="110000" />
+      <workItem from="1688647280749" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing and Executing Statements">
       <option name="closed" value="true" />
@@ -110,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688583674384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="villain's names">
+      <option name="closed" value="true" />
+      <created>1688587654437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688587654437</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +132,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preparing and Executing Statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing and Executing Statements" />
+    <MESSAGE value="villain's names" />
+    <option name="LAST_COMMIT_MESSAGE" value="villain's names" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
