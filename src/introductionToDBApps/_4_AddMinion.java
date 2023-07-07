@@ -28,9 +28,24 @@ public class _4_AddMinion {
         int townId = getOrInsertTown(connection, minionTown);
         int villainId = getOrInsertVillain(connection, villainName);
 
+        PreparedStatement insertMinion = connection.prepareStatement("INSERT INTO minions (name, age, town_id) VALUES (?, ?, ?)");
+        insertMinion.setString(1, minionName);
+        insertMinion.setInt(2, minionAge);
+        insertMinion.setInt(3, townId);
+        insertMinion.executeUpdate();
+
+        PreparedStatement getLastMinion = connection.prepareStatement("SELECT id FROM minions ORDER BY id DESC");
+        ResultSet lastMinionSet = getLastMinion.executeQuery();
+        lastMinionSet.next();
+        int lastMinionId = lastMinionSet.getInt("id");
+
+        PreparedStatement insertMinionsVillains = connection.prepareStatement("INSERT INTO minions_villains VALUES  (?, ?)");
+        insertMinionsVillains.setInt(1, lastMinionId);
+        insertMinionsVillains.setInt(2, villainId);
+        insertMinion.executeUpdate();
+
         System.out.printf("Successfully added %s to be minion of %s.%n", minionName, villainName);
 
-        System.out.println(townId);
 
     }
 
@@ -42,7 +57,7 @@ public class _4_AddMinion {
 
         int villainId = 0;
         if (!villainSet.next()) {
-            PreparedStatement insertVillain = connection.prepareStatement("INSERT INTO villains (name, eliness_factor) VALUES  (?,?)");
+            PreparedStatement insertVillain = connection.prepareStatement("INSERT INTO villains (name, evilness_factor) VALUES  (?,?)");
             insertVillain.setString(1, villainName);
             insertVillain.setString(2, "evil");
             insertVillain.executeUpdate();
