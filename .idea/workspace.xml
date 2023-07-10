@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_5_ChangeTownNamesCasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_5_ChangeTownsNamesCasing_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_06_Remove_Villain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_07_Print_All_Minions_Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_08_Increase_Minions_Age.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introductionToDBApps/_09_Increase_Age_Stored_Procedure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +68,9 @@
       <recent name="$PROJECT_DIR$/src/introductionToDBApps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._5_ChangeTownNamesCasing">
-    <configuration name="_4_AddMinion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._4_AddMinion" />
+  <component name="RunManager" selected="Application._06_Remove_Villain">
+    <configuration name="_06_Remove_Villain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._06_Remove_Villain" />
       <module name="Spring_Data" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._06_Remove_Villain" />
         <item itemvalue="Application._5_ChangeTownNamesCasing" />
         <item itemvalue="Application._5_ChangeTownsNamesCasing_2" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application._4_AddMinion_2" />
-        <item itemvalue="Application._4_AddMinion" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,8 @@
       <workItem from="1688647153950" duration="110000" />
       <workItem from="1688647280749" duration="13998000" />
       <workItem from="1688736514710" duration="7843000" />
-      <workItem from="1688795491086" duration="5101000" />
+      <workItem from="1688795491086" duration="5394000" />
+      <workItem from="1688971208130" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing and Executing Statements">
       <option name="closed" value="true" />
@@ -205,13 +207,22 @@
       <option name="project" value="LOCAL" />
       <updated>1688749903224</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="introduction to DB Apps">
+      <option name="closed" value="true" />
+      <created>1688800770526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688800770526</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Preparing and Executing Statements" />
     <MESSAGE value="villain's names" />
     <MESSAGE value="introduction to DB Apps" />
@@ -362,6 +373,26 @@
           <url>file://$PROJECT_DIR$/src/introductionToDBApps/_4_AddMinion.java</url>
           <line>77</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_06_Remove_Villain.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_06_Remove_Villain.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_06_Remove_Villain.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/introductionToDBApps/_06_Remove_Villain.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java</url>
