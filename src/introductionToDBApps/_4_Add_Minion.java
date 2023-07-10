@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class _4_AddMinion {
+public class _4_Add_Minion {
     public static void main(String[] args) throws SQLException {
         Scanner scanner = new Scanner(System.in);
 

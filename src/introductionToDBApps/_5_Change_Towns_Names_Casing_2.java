@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class _5_ChangeTownsNamesCasing_2 {
+public class _5_Change_Towns_Names_Casing_2 {
 
     private static final String UPDATE_TOWNS_WITH_GIVEN_NAME = "UPDATE towns SET `name` = UPPER(`name`) WHERE country = ?;";
     private static final String GET_CITIES_BY_COUNTRY_NAME = "SELECT `name` FROM towns WHERE country = ?";

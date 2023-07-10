@@ -5,7 +5,7 @@ import java.util.Properties;
 import java.util.Scanner;
 
 
-public class _3_GetMinionNames {
+public class _3_Get_Minion_Names {
     public static void main(String[] args) throws SQLException {
 
         Properties props = new Properties();

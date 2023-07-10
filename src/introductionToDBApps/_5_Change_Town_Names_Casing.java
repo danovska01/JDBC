@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class _5_ChangeTownNamesCasing {
+public class _5_Change_Town_Names_Casing {
     public static void main(String[] args) throws SQLException {
         Scanner scanner = new Scanner(System.in);
         String countryName = scanner.nextLine();

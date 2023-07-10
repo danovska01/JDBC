@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class _4_AddMinion_2 {
+public class _4_Add_Minion_2 {
 
     private static final String GET_TOWN_ID_BY_TOWN_NAME = "SELECT id FROM towns WHERE `name` = ?;";
     private static final String INSERT_TOWN = "INSERT INTO towns(name) VALUES (?);";
