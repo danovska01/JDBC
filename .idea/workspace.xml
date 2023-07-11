@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fe7bb24-f776-465b-bb77-a09032daf699" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_2_GetVillainsNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_2_Get_Villains_Names.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_3_Get_Minion_Names.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_3_GetMinionNames_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_3_Get_Minion_Names_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_4_AddMinion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_4_Add_Minion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_4_AddMinion_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_4_Add_Minion_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_5_ChangeTownNamesCasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_5_Change_Town_Names_Casing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/_5_ChangeTownsNamesCasing_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductionToDBApps/_5_Change_Towns_Names_Casing_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introductionToDBApps/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +65,10 @@
       <recent name="$PROJECT_DIR$/src/introductionToDBApps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._09_Increase_Age_Stored_Procedure">
+  <component name="RunManager" selected="Application._4_Add_Minion_2">
     <configuration name="_06_Remove_Villain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introductionToDBApps._06_Remove_Villain" />
-      <module name="Spring_Data" />
+      <module name="JDBC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="introductionToDBApps.*" />
@@ -87,7 +81,7 @@
     </configuration>
     <configuration name="_07_Print_All_Minions_Names" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introductionToDBApps._07_Print_All_Minions_Names" />
-      <module name="Spring_Data" />
+      <module name="JDBC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="introductionToDBApps.*" />
@@ -100,7 +94,7 @@
     </configuration>
     <configuration name="_08_Increase_Minions_Age" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introductionToDBApps._08_Increase_Minions_Age" />
-      <module name="Spring_Data" />
+      <module name="JDBC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="introductionToDBApps.*" />
@@ -113,7 +107,7 @@
     </configuration>
     <configuration name="_09_Increase_Age_Stored_Procedure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introductionToDBApps._09_Increase_Age_Stored_Procedure" />
-      <module name="Spring_Data" />
+      <module name="JDBC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="introductionToDBApps.*" />
@@ -124,9 +118,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_Change_Town_Names_Casing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._5_Change_Town_Names_Casing" />
-      <module name="Spring_Data" />
+    <configuration name="_4_Add_Minion_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductionToDBApps._4_Add_Minion_2" />
+      <module name="JDBC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="introductionToDBApps.*" />
@@ -139,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._4_Add_Minion_2" />
         <item itemvalue="Application._09_Increase_Age_Stored_Procedure" />
         <item itemvalue="Application._08_Increase_Minions_Age" />
         <item itemvalue="Application._07_Print_All_Minions_Names" />
         <item itemvalue="Application._06_Remove_Villain" />
-        <item itemvalue="Application._5_Change_Town_Names_Casing" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +154,7 @@
       <workItem from="1688647280749" duration="13998000" />
       <workItem from="1688736514710" duration="7843000" />
       <workItem from="1688795491086" duration="5394000" />
-      <workItem from="1688971208130" duration="10285000" />
+      <workItem from="1688971208130" duration="11691000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing and Executing Statements">
       <option name="closed" value="true" />
@@ -226,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688975801747</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="introduction to DB Apps">
+      <option name="closed" value="true" />
+      <created>1688996948287</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688996948287</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
