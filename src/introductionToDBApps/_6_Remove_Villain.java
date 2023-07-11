@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class _06_Remove_Villain {
+public class _6_Remove_Villain {
 
 
     private static final String GET_VILLAIN_NAME_BY_VILLAIN_ID = "SELECT `name` FROM villains WHERE id = ?;";

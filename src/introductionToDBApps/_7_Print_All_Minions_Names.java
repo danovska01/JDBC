@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _07_Print_All_Minions_Names {
+public class _7_Print_All_Minions_Names {
 
 
     private static final String GET_ALL_MINIONS_NAMES = "SELECT * from minions;";

@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class _08_Increase_Minions_Age {
+public class _8_Increase_Minions_Age {
 
 
     private static final String GET_UPDATED_MINIONS = "SELECT * FROM minions;";

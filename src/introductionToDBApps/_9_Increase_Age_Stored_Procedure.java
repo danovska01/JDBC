@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class _09_Increase_Age_Stored_Procedure {
+public class _9_Increase_Age_Stored_Procedure {
     private static final String CALL_PROCEDURE = "CALL usp_get_older(?);";
 
     public static void main(String[] args) throws SQLException {
